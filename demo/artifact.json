@@ -1,0 +1,28 @@
+{
+    "protocol": "0.1.0",
+
+    "group": "com.example",
+
+    "artifact": "example_mod",
+
+    "version": "1.0.0",
+
+    "status": "release",
+
+    "license": "MIT OR Apache-2.0",
+
+    "checksum": "0000000000000000000000000000000000000000000000000000000000000000",
+
+    "minecraft": "1.12.2",
+
+    "framework": "forge",
+
+    "dependencies": [
+        "net.minecrafforge.forge:forge:14.23.2.2702",
+        {
+            "group": "your.group",
+            "artifact": "demo_mod",
+            "version": "1.0.0",
+        }
+    ]
+}
