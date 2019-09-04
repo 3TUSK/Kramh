@@ -4,17 +4,7 @@
     "id": "example_mod",
     "name": "Example Mod",
 
-    "description": {
-        "summary": "Example mod for demostrate how a mod looks like.",
-        "details": "Just an example, no more details needed here.",
-        "author": [ "Alice", "Bob" ]
-    },
+    "summary": "Example mod for demostrate how a mod looks like.",
 
-    "resources": {
-        "homepage": "http://example.net",
-        "issue": "some-random-issue-tracker",
-        "scm": "https://github.com/lorem/ipsum",
-        "manual": "https://example.net"
-    },
-    "license": "MIT OR Apache-2.0"
+    "maintainer": [ "Alice", "Bob <bob@example.com>" ]
 }

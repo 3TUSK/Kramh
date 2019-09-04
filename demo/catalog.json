@@ -1,7 +1,7 @@
 {
     "protocol": "0.1.0",
     "id": "example_mod",
-    "artifacts": [
+    "versions": [
         "1.0.0",
         "1.0.1",
         "1.1.0",

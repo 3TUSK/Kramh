@@ -1,28 +1,34 @@
 {
     "protocol": "0.1.0",
 
-    "group": "com.example",
-
-    "artifact": "example_mod",
-
+    "id": "example_mod",
     "version": "1.0.0",
-
-    "status": "release",
 
     "license": "MIT OR Apache-2.0",
 
-    "checksum": "0000000000000000000000000000000000000000000000000000000000000000",
+    "checksum": {
+        "md5": "00000000000000000000000000000000",
+        "sha1": "0000000000000000000000000000000000000000",
+        "sha256": "0000000000000000000000000000000000000000000000000000000000000000",
+    },
 
     "minecraft": "1.12.2",
-
     "framework": "forge",
 
     "dependencies": [
-        "net.minecrafforge.forge:forge:14.23.2.2702",
+        "another_mod > 1.1.0",
+        "some_other_mod < 2.0",
+        "a_random_mod"
+    ],
+
+    "downloads": [
         {
-            "group": "your.group",
-            "artifact": "demo_mod",
-            "version": "1.0.0",
+            "repo": "https://repo1.maven.org/",
+            "artifact": "com.example:example_mod:1.0.0"
+        },
+        {
+            "repo": "https://mirror.something.net/maven",
+            "artifact": "com.example:example_mod:1.0.0"
         }
     ]
 }
