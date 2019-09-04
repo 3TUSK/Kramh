@@ -1,6 +1,8 @@
 # SMMART API Definition
 
-SMMART API Definition defines a set of Web API endpoints in RESTful style
+SMMART API Definition defines a set of Web API endpoints in RESTful style,
+which is the primary way of exchanging data among clients (users) and servers
+(databases).
 
 ## Synopsis
 

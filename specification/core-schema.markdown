@@ -7,7 +7,7 @@ several core JSON structures used by SMMART.
 
 ## Synopsis
 
-The Core SMMART Schema consists of three schemata
+The Core SMMART Schema consists of three schemata:
 
   - Schema for Mod Entry ("Entry Schema")
   - Schema for Mod Catalog ("Catalog Schema")
