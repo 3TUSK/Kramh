@@ -89,6 +89,7 @@ The following fields are REQUIRED:
   - `downloads` The list of possible sources that can retrieve this artifact,
     whose checksums MUST comply with the listed checksums in this metadata file.
     - MUST be a JSON Array of JSON Objects, whose contents MUST include:
-      * `maven` The target maven repository URL. MUST be a JSON String.
-      * `artifact` The artifact identifier within that maven repository
-        specified above. MUST be a JSON String.
+      * `url` The location that the artifact locates at.
+    - Optionally, each JSON Object in that JSON Array may contain the following
+      fields:
+      * `type` The descriptor of `url` as described above.
