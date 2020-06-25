@@ -44,7 +44,7 @@ in English would still be annoying.
 Inspired by various package manager used by different Linux Distributions as
 well as the CKAN Project from Kerbel Space Program community, the Schema for
 Minecraft Mod Artifact Resource Tracking (SMMART) intends to set up a uniformed
-and platform-agnostic standard to record and exchange information about the mod
+and platform-agnostic standard to record and exchange information about mod
 files ("artifacts").
 
 [rfc-2119]: https://tools.ietf.org/html/rfc2119
